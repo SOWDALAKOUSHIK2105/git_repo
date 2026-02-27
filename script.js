@@ -50,3 +50,5 @@ slider.oninput=()=>setPercent(slider.value/100);
 presets.forEach(b=>b.onclick=()=>setPercent(+b.dataset.p));
 
 setPercent(0.5);
+
+console.log("HEllo")
