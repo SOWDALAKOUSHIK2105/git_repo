@@ -23,6 +23,11 @@ function compute(stake,odds,p){
     return{cashout,liveOdds};
 }
 
+if(themeMode.checked){
+    document.style.color = "white"
+    document.style.backgroundColor = "black"
+}
+
 document.getElementById('calcBtn').onclick=()=>{
     const stake=+stakeEl.value;
     const odds=+oddsEl.value;
